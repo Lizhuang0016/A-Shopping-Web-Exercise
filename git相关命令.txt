@@ -1,0 +1,12 @@
+git status 展示所有文件的状态 
+git add . 把所有未提交的文件提交 或者git add read.txt
+git commit -m "init my project" 提交文件 “”中的内容是附带的消息
+
+git config --global user.email "you@example.com" 把自己的邮件和姓名注册到git中
+git config --global user.name "Your Name"
+
+git config --global user.name "LiZhuang" 和自己码云的用户名相同
+git config --global user.email "347840019@qq.com"
+
+git remote add origin https://gitee.com/lizhuang0019/Vue-project-practice.git  把项目和码云的仓库关联起来，就是把本地项目放到码云的空仓库中
+git push -u origin master
